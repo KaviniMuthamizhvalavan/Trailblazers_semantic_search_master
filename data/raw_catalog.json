@@ -1,0 +1,602 @@
+[
+  {
+    "product_id": "OUTW-001",
+    "title": "Children's Insulated Parka",
+    "description": "Keep your little ones warm during the coldest months with this heavily insulated parka. Features a water-resistant outer shell, fleece-lined hood, and reinforced stitching for active kids.",
+    "category": "Outerwear",
+    "price": 79.99,
+    "rating": 4.7,
+    "stock": 45,
+    "attributes": "thermal insulation, waterproof, fleece lining, kids sizing"
+  },
+  {
+    "product_id": "OUTW-002",
+    "title": "Men's Quilted Down Vest",
+    "description": "Lightweight layering piece filled with premium 650-fill goose down. Ideal for transitional weather or as a mid-layer under a shell jacket. Packs into its own pocket.",
+    "category": "Outerwear",
+    "price": 119.99,
+    "rating": 4.5,
+    "stock": 32,
+    "attributes": "packable, goose down fill, stand collar, zip pockets"
+  },
+  {
+    "product_id": "OUTW-003",
+    "title": "Women's Softshell Windbreaker",
+    "description": "A stretchy, breathable windbreaker designed for outdoor activities in breezy conditions. DWR finish sheds light rain, while the articulated sleeves allow unrestricted movement.",
+    "category": "Outerwear",
+    "price": 89.99,
+    "rating": 4.3,
+    "stock": 0,
+    "attributes": "wind resistant, DWR coating, four-way stretch, thumbhole cuffs"
+  },
+  {
+    "product_id": "OUTW-004",
+    "title": "Heavyweight Flannel-Lined Denim Jacket",
+    "description": "A rugged denim jacket with a warm flannel lining inside. Classic trucker silhouette meets cold-weather functionality. Metal shank buttons and dual chest pockets.",
+    "category": "Outerwear",
+    "price": 94.50,
+    "rating": 4.6,
+    "stock": 18,
+    "attributes": "flannel lined, denim, trucker fit, heritage style"
+  },
+  {
+    "product_id": "OUTW-005",
+    "title": "Ultralight Packable Rain Shell",
+    "description": "Weighing just 6 ounces, this fully seam-sealed rain shell disappears into its own chest pocket. Perfect for unpredictable weather on hikes and commutes alike.",
+    "category": "Outerwear",
+    "price": 64.99,
+    "rating": 4.1,
+    "stock": 67,
+    "attributes": "seam-sealed, packable, waterproof, ultralight"
+  },
+  {
+    "product_id": "OUTW-006",
+    "title": "Sherpa-Collared Corduroy Coat",
+    "description": "Vintage-inspired corduroy coat with a plush sherpa collar and lining. Two-button front closure and deep side pockets for a relaxed, retro feel.",
+    "category": "Outerwear",
+    "price": 134.00,
+    "rating": 4.8,
+    "stock": 11,
+    "attributes": "corduroy, sherpa lining, vintage style, relaxed fit"
+  },
+  {
+    "product_id": "OUTW-007",
+    "title": "Thermal Puffer Coat with Hood",
+    "description": "Synthetic-fill puffer coat engineered for sub-zero temperatures. Baffled construction prevents cold spots, and the adjustable hood seals out drafts.",
+    "category": "Outerwear",
+    "price": 149.99,
+    "rating": 4.4,
+    "stock": 25,
+    "attributes": "synthetic fill, baffled, adjustable hood, sub-zero rated"
+  },
+  {
+    "product_id": "OUTW-008",
+    "title": "Waxed Canvas Field Jacket",
+    "description": "Inspired by military field jackets, this waxed canvas piece offers rugged weather protection with a broken-in feel. Four front cargo pockets and a bi-swing back for mobility.",
+    "category": "Outerwear",
+    "price": 189.00,
+    "rating": 4.9,
+    "stock": 8,
+    "attributes": "waxed canvas, military inspired, cargo pockets, bi-swing back"
+  },
+  {
+    "product_id": "OUTW-009",
+    "title": "Recycled Polyester Fleece Pullover",
+    "description": "Mid-weight fleece pullover made from 100% recycled polyester. Quarter-zip neck, kangaroo pocket, and anti-pill finish for long-lasting softness.",
+    "category": "Outerwear",
+    "price": 59.99,
+    "rating": 4.2,
+    "stock": 53,
+    "attributes": "recycled material, fleece, quarter-zip, anti-pill"
+  },
+  {
+    "product_id": "OUTW-010",
+    "title": "Toddler Snow Bib Overalls",
+    "description": "Fully waterproof bib overalls for toddlers. Reinforced knees and seat, adjustable shoulder straps, and a fleece-lined waistband keep small adventurers comfortable in the snow.",
+    "category": "Outerwear",
+    "price": 49.99,
+    "rating": 4.6,
+    "stock": 30,
+    "attributes": "waterproof, toddler sizing, reinforced, snow gear"
+  },
+  {
+    "product_id": "OUTW-011",
+    "title": "Merino Wool Peacoat",
+    "description": "Timeless double-breasted peacoat crafted from Italian merino wool blend. Notch lapel, horn buttons, and a tailored silhouette for a polished cold-weather look.",
+    "category": "Outerwear",
+    "price": 249.00,
+    "rating": 4.7,
+    "stock": 14,
+    "attributes": "merino wool, double-breasted, tailored, Italian fabric"
+  },
+  {
+    "product_id": "OUTW-012",
+    "title": "Reflective Running Jacket",
+    "description": "High-visibility running jacket with 360-degree reflective elements. Lightweight, moisture-wicking, and designed with a drop-tail hem for rear coverage during evening jogs.",
+    "category": "Outerwear",
+    "price": 74.99,
+    "rating": 4.0,
+    "stock": 40,
+    "attributes": "reflective, running gear, moisture-wicking, high visibility"
+  },
+  {
+    "product_id": "ELEC-001",
+    "title": "15.6\" Professional Notebook Computer",
+    "description": "Thin-bezel 15.6-inch laptop with a 12th-gen processor, 16 GB RAM, and a 512 GB NVMe SSD. Ideal for spreadsheets, presentations, and light creative work.",
+    "category": "Electronics",
+    "price": 849.00,
+    "rating": 4.3,
+    "stock": 22,
+    "attributes": "12th gen CPU, 16GB RAM, 512GB SSD, thin bezel display"
+  },
+  {
+    "product_id": "ELEC-002",
+    "title": "Noise-Cancelling Over-Ear Headphones",
+    "description": "Premium wireless headphones with adaptive noise cancellation, 30-hour battery life, and memory foam ear cushions. Bluetooth 5.3 with multipoint connectivity.",
+    "category": "Electronics",
+    "price": 299.99,
+    "rating": 4.8,
+    "stock": 35,
+    "attributes": "ANC, wireless, Bluetooth 5.3, 30hr battery"
+  },
+  {
+    "product_id": "ELEC-003",
+    "title": "Compact Portable Bluetooth Speaker",
+    "description": "IP67-rated waterproof portable speaker with 360-degree sound. 12 hours of playtime, built-in microphone for calls, and a carabiner clip for travel.",
+    "category": "Electronics",
+    "price": 49.99,
+    "rating": 4.4,
+    "stock": 60,
+    "attributes": "waterproof, Bluetooth, 12hr battery, portable"
+  },
+  {
+    "product_id": "ELEC-004",
+    "title": "4K Ultra HD Streaming Media Player",
+    "description": "Stream your favorite shows in stunning 4K HDR. Voice remote included, supports all major streaming platforms, and features Dolby Vision and Atmos.",
+    "category": "Electronics",
+    "price": 39.99,
+    "rating": 4.5,
+    "stock": 0,
+    "attributes": "4K HDR, Dolby Vision, Dolby Atmos, voice remote"
+  },
+  {
+    "product_id": "ELEC-005",
+    "title": "Mechanical Gaming Keyboard",
+    "description": "Full-size mechanical keyboard with hot-swappable switches, per-key RGB backlighting, and a detachable USB-C cable. N-key rollover ensures every keypress registers.",
+    "category": "Electronics",
+    "price": 89.99,
+    "rating": 4.6,
+    "stock": 28,
+    "attributes": "mechanical switches, RGB, hot-swap, USB-C"
+  },
+  {
+    "product_id": "ELEC-006",
+    "title": "Wireless Ergonomic Mouse",
+    "description": "Vertically oriented ergonomic mouse designed to reduce wrist strain. 2.4 GHz wireless connectivity, adjustable DPI up to 4000, and silent click buttons.",
+    "category": "Electronics",
+    "price": 34.99,
+    "rating": 4.2,
+    "stock": 48,
+    "attributes": "ergonomic, vertical design, silent click, wireless 2.4GHz"
+  },
+  {
+    "product_id": "ELEC-007",
+    "title": "27\" QHD IPS Monitor",
+    "description": "27-inch QHD (2560x1440) IPS display with 95% DCI-P3 color accuracy, USB-C with 65W power delivery, and a fully adjustable ergonomic stand.",
+    "category": "Electronics",
+    "price": 349.99,
+    "rating": 4.7,
+    "stock": 15,
+    "attributes": "QHD, IPS, USB-C PD, color accurate"
+  },
+  {
+    "product_id": "ELEC-008",
+    "title": "True Wireless Sport Earbuds",
+    "description": "Sweat-proof earbuds with secure-fit ear hooks for running and gym workouts. Active noise cancellation, transparency mode, and 8 hours of playback per charge.",
+    "category": "Electronics",
+    "price": 129.99,
+    "rating": 4.3,
+    "stock": 42,
+    "attributes": "TWS, sweat-proof, ANC, sport fit"
+  },
+  {
+    "product_id": "ELEC-009",
+    "title": "USB-C Docking Station Hub",
+    "description": "13-in-1 docking station with dual HDMI output, Gigabit Ethernet, SD/microSD card reader, and 100W pass-through charging. Compatible with Thunderbolt 4.",
+    "category": "Electronics",
+    "price": 79.99,
+    "rating": 4.1,
+    "stock": 37,
+    "attributes": "USB-C hub, dual HDMI, Thunderbolt 4, 100W PD"
+  },
+  {
+    "product_id": "ELEC-010",
+    "title": "Smart Home Voice Assistant Speaker",
+    "description": "Voice-controlled smart speaker with premium room-filling sound. Controls lights, thermostats, and other smart devices. Built-in ambient light sensor adjusts LED clock display.",
+    "category": "Electronics",
+    "price": 99.99,
+    "rating": 4.4,
+    "stock": 50,
+    "attributes": "voice assistant, smart home, ambient sensor, room-filling audio"
+  },
+  {
+    "product_id": "ELEC-011",
+    "title": "Portable Power Station 500Wh",
+    "description": "Lithium iron phosphate battery with 500Wh capacity. Powers laptops, mini-fridges, and CPAP machines. Solar panel input, multiple AC and USB outlets.",
+    "category": "Electronics",
+    "price": 449.00,
+    "rating": 4.6,
+    "stock": 12,
+    "attributes": "LiFePO4, solar input, portable power, 500Wh"
+  },
+  {
+    "product_id": "ELEC-012",
+    "title": "Fitness Tracking Smartwatch",
+    "description": "GPS-enabled smartwatch with heart rate monitoring, blood oxygen tracking, sleep analysis, and 50+ workout modes. 14-day battery life and always-on AMOLED display.",
+    "category": "Electronics",
+    "price": 199.99,
+    "rating": 4.5,
+    "stock": 33,
+    "attributes": "GPS, heart rate, SpO2, AMOLED, fitness tracking"
+  },
+  {
+    "product_id": "HOME-001",
+    "title": "8-Piece Stainless Steel Cookware Set",
+    "description": "Tri-ply stainless steel cookware set including two saucepans, a stock pot, a sauté pan, and matching lids. Induction compatible, oven safe to 500°F, and dishwasher safe.",
+    "category": "Home & Kitchen",
+    "price": 229.99,
+    "rating": 4.6,
+    "stock": 20,
+    "attributes": "tri-ply, stainless steel, induction ready, oven safe"
+  },
+  {
+    "product_id": "HOME-002",
+    "title": "Programmable Drip Coffee Maker",
+    "description": "12-cup coffee maker with a 24-hour programmable timer, adjustable brew strength, and a thermal carafe that keeps coffee hot for hours without a hot plate.",
+    "category": "Home & Kitchen",
+    "price": 69.99,
+    "rating": 4.3,
+    "stock": 38,
+    "attributes": "programmable, thermal carafe, 12-cup, auto brew"
+  },
+  {
+    "product_id": "HOME-003",
+    "title": "Memory Foam Contour Pillow",
+    "description": "Ergonomically contoured memory foam pillow with a cooling gel layer. Supports the cervical spine for side and back sleepers. Removable, washable bamboo-blend cover.",
+    "category": "Home & Kitchen",
+    "price": 44.99,
+    "rating": 4.4,
+    "stock": 55,
+    "attributes": "memory foam, cooling gel, cervical support, bamboo cover"
+  },
+  {
+    "product_id": "HOME-004",
+    "title": "Robot Vacuum with Laser Navigation",
+    "description": "LiDAR-equipped robot vacuum that maps your home for efficient, room-by-room cleaning. 5000Pa suction, auto-empty dock compatibility, and app/voice control.",
+    "category": "Home & Kitchen",
+    "price": 399.99,
+    "rating": 4.7,
+    "stock": 16,
+    "attributes": "LiDAR, 5000Pa, auto-empty, app control"
+  },
+  {
+    "product_id": "HOME-005",
+    "title": "Bamboo Drawer Organizer Set",
+    "description": "Expandable bamboo organizer set for kitchen drawers. Includes dividers for cutlery, utensils, and junk drawers. Natural, sustainable bamboo with a smooth lacquer finish.",
+    "category": "Home & Kitchen",
+    "price": 27.99,
+    "rating": 4.2,
+    "stock": 70,
+    "attributes": "bamboo, expandable, drawer dividers, sustainable"
+  },
+  {
+    "product_id": "HOME-006",
+    "title": "Cast Iron Dutch Oven 6-Quart",
+    "description": "Enameled cast iron Dutch oven perfect for braising, roasting, and baking artisan bread. Even heat distribution, chip-resistant enamel, and a self-basting lid design.",
+    "category": "Home & Kitchen",
+    "price": 89.99,
+    "rating": 4.8,
+    "stock": 24,
+    "attributes": "cast iron, enameled, 6-quart, self-basting lid"
+  },
+  {
+    "product_id": "HOME-007",
+    "title": "Linen Blackout Curtain Panels",
+    "description": "Set of two linen-textured curtain panels with a foam-backed blackout layer. Block 99% of light and reduce outside noise. Grommet top for easy installation.",
+    "category": "Home & Kitchen",
+    "price": 39.99,
+    "rating": 4.5,
+    "stock": 44,
+    "attributes": "blackout, linen texture, noise reducing, grommet top"
+  },
+  {
+    "product_id": "HOME-008",
+    "title": "Electric Ceramic Cooktop - Portable",
+    "description": "Portable single-burner ceramic cooktop with touch controls and 8 heat settings. Great for dorm rooms, RVs, or as an extra burner during holiday cooking.",
+    "category": "Home & Kitchen",
+    "price": 54.99,
+    "rating": 4.0,
+    "stock": 0,
+    "attributes": "portable, ceramic, touch control, single burner"
+  },
+  {
+    "product_id": "HOME-009",
+    "title": "Air Purifier with HEPA H13 Filter",
+    "description": "Room air purifier with a true HEPA H13 filter that captures 99.97% of particles. Covers rooms up to 1,100 sq ft. Quiet sleep mode and real-time air quality indicator.",
+    "category": "Home & Kitchen",
+    "price": 149.99,
+    "rating": 4.6,
+    "stock": 29,
+    "attributes": "HEPA H13, 1100 sqft, sleep mode, air quality display"
+  },
+  {
+    "product_id": "HOME-010",
+    "title": "Weighted Blanket 15 lbs",
+    "description": "Glass bead-filled weighted blanket designed for adults 120–180 lbs. Promotes calming deep pressure stimulation. Breathable cotton shell with 5-inch squares to prevent bead shifting.",
+    "category": "Home & Kitchen",
+    "price": 59.99,
+    "rating": 4.3,
+    "stock": 36,
+    "attributes": "weighted, glass beads, 15 lbs, deep pressure therapy"
+  },
+  {
+    "product_id": "HOME-011",
+    "title": "Pour-Over Coffee Dripper with Carafe",
+    "description": "Borosilicate glass carafe with a stainless steel reusable filter. Brew up to 20 oz of pour-over coffee with full control over extraction time and water temperature.",
+    "category": "Home & Kitchen",
+    "price": 32.99,
+    "rating": 4.4,
+    "stock": 42,
+    "attributes": "pour-over, glass carafe, reusable filter, manual brew"
+  },
+  {
+    "product_id": "HOME-012",
+    "title": "Non-Stick Bakeware Set 5-Piece",
+    "description": "Includes a cookie sheet, muffin tin, loaf pan, square cake pan, and round cake pan. Heavy-gauge steel with a silicone-based non-stick coating for easy release and cleanup.",
+    "category": "Home & Kitchen",
+    "price": 34.99,
+    "rating": 4.1,
+    "stock": 50,
+    "attributes": "non-stick, 5-piece, heavy-gauge steel, easy release"
+  },
+  {
+    "product_id": "SPRT-001",
+    "title": "Carbon Fiber Road Bicycle Frame",
+    "description": "Ultra-lightweight monocoque carbon fiber frame designed for competitive road cycling. Internal cable routing, tapered head tube, and press-fit bottom bracket.",
+    "category": "Sports & Outdoors",
+    "price": 1299.00,
+    "rating": 4.9,
+    "stock": 5,
+    "attributes": "carbon fiber, monocoque, road bike, competition grade"
+  },
+  {
+    "product_id": "SPRT-002",
+    "title": "Yoga Mat with Alignment Lines",
+    "description": "6mm thick TPE yoga mat with laser-etched alignment guides. Non-slip on both sides, lightweight, and comes with a carrying strap. Free from PVC, latex, and silicone.",
+    "category": "Sports & Outdoors",
+    "price": 38.99,
+    "rating": 4.5,
+    "stock": 65,
+    "attributes": "TPE material, alignment guides, non-slip, eco-friendly"
+  },
+  {
+    "product_id": "SPRT-003",
+    "title": "Adjustable Dumbbell Set 5-50 lbs",
+    "description": "Space-saving adjustable dumbbell system that replaces 15 pairs of weights. Quick-change mechanism lets you switch from 5 to 50 lbs in seconds. Includes a molded storage tray.",
+    "category": "Sports & Outdoors",
+    "price": 349.99,
+    "rating": 4.7,
+    "stock": 10,
+    "attributes": "adjustable, 5-50 lbs, space saving, quick change"
+  },
+  {
+    "product_id": "SPRT-004",
+    "title": "3-Person Backpacking Tent",
+    "description": "Freestanding double-wall tent with a full-coverage rainfly. Two vestibules for gear storage, color-coded pole clips for fast setup, and weighs under 5 lbs packed.",
+    "category": "Sports & Outdoors",
+    "price": 269.99,
+    "rating": 4.6,
+    "stock": 18,
+    "attributes": "3-person, freestanding, double-wall, ultralight"
+  },
+  {
+    "product_id": "SPRT-005",
+    "title": "Insulated Stainless Steel Water Bottle 32oz",
+    "description": "Triple-wall vacuum insulated water bottle that keeps drinks cold for 24 hours or hot for 12. Powder-coated finish, leak-proof lid, and wide mouth for ice cubes.",
+    "category": "Sports & Outdoors",
+    "price": 29.99,
+    "rating": 4.4,
+    "stock": 80,
+    "attributes": "vacuum insulated, 32oz, leak-proof, powder coated"
+  },
+  {
+    "product_id": "SPRT-006",
+    "title": "Resistance Band Set with Handles",
+    "description": "Set of 5 latex resistance bands (10–50 lbs) with padded handles, door anchor, and ankle straps. Full-body strength training at home or on the road.",
+    "category": "Sports & Outdoors",
+    "price": 24.99,
+    "rating": 4.2,
+    "stock": 72,
+    "attributes": "resistance bands, 5-band set, handles, door anchor"
+  },
+  {
+    "product_id": "SPRT-007",
+    "title": "GPS Cycling Computer",
+    "description": "ANT+ and Bluetooth-enabled cycling computer with color display, turn-by-turn navigation, and performance metrics including power, cadence, and heart rate zones.",
+    "category": "Sports & Outdoors",
+    "price": 249.99,
+    "rating": 4.5,
+    "stock": 0,
+    "attributes": "GPS, ANT+, Bluetooth, navigation, cycling metrics"
+  },
+  {
+    "product_id": "SPRT-008",
+    "title": "Foam Roller for Muscle Recovery",
+    "description": "High-density EVA foam roller with a textured grid surface for targeted deep-tissue massage. 18 inches long, ideal for IT band, hamstrings, and back relief.",
+    "category": "Sports & Outdoors",
+    "price": 19.99,
+    "rating": 4.3,
+    "stock": 58,
+    "attributes": "EVA foam, textured grid, deep tissue, 18 inch"
+  },
+  {
+    "product_id": "SPRT-009",
+    "title": "Climbing Harness with Gear Loops",
+    "description": "UIAA-certified sport climbing harness with four gear loops, adjustable leg loops, and a belay loop rated to 15kN. Breathable padding for all-day comfort on multi-pitch routes.",
+    "category": "Sports & Outdoors",
+    "price": 74.99,
+    "rating": 4.6,
+    "stock": 22,
+    "attributes": "UIAA certified, 4 gear loops, adjustable, breathable"
+  },
+  {
+    "product_id": "SPRT-010",
+    "title": "Trail Running Shoes - Men's",
+    "description": "Aggressive lug pattern for muddy and rocky trails. Rock plate protects the forefoot, while the cushioned midsole absorbs impact on long descents. Drainage ports for creek crossings.",
+    "category": "Sports & Outdoors",
+    "price": 129.99,
+    "rating": 4.4,
+    "stock": 34,
+    "attributes": "trail running, lug outsole, rock plate, drainage ports"
+  },
+  {
+    "product_id": "SPRT-011",
+    "title": "Inflatable Stand-Up Paddleboard",
+    "description": "Military-grade PVC paddleboard that inflates to 15 PSI for rigid performance. Includes adjustable aluminum paddle, pump, leash, and backpack carry bag. Supports up to 300 lbs.",
+    "category": "Sports & Outdoors",
+    "price": 399.99,
+    "rating": 4.5,
+    "stock": 9,
+    "attributes": "inflatable, SUP, military-grade PVC, 300 lb capacity"
+  },
+  {
+    "product_id": "SPRT-012",
+    "title": "Compression Leg Sleeves - Pair",
+    "description": "Graduated compression calf sleeves that improve circulation during running, basketball, and recovery. Moisture-wicking fabric with flatlock seams to prevent chafing.",
+    "category": "Sports & Outdoors",
+    "price": 18.99,
+    "rating": 4.1,
+    "stock": 90,
+    "attributes": "graduated compression, moisture-wicking, calf sleeves, recovery"
+  },
+  {
+    "product_id": "BOOK-001",
+    "title": "The Art of Problem Solving in Mathematics",
+    "description": "A comprehensive guide to mathematical problem-solving techniques used in competitions and advanced coursework. Covers number theory, combinatorics, and proof writing with hundreds of exercises.",
+    "category": "Books & Education",
+    "price": 34.99,
+    "rating": 4.8,
+    "stock": 40,
+    "attributes": "mathematics, competition prep, number theory, combinatorics"
+  },
+  {
+    "product_id": "BOOK-002",
+    "title": "Beginner's Guide to Watercolor Painting",
+    "description": "Step-by-step lessons in watercolor technique from basic washes to complex layering. Includes color theory, brush selection, and 20 guided painting projects suitable for absolute beginners.",
+    "category": "Books & Education",
+    "price": 22.99,
+    "rating": 4.5,
+    "stock": 52,
+    "attributes": "watercolor, painting lessons, color theory, beginner"
+  },
+  {
+    "product_id": "BOOK-003",
+    "title": "Science Fiction Anthology: Futures Reimagined",
+    "description": "A curated collection of 25 short stories by contemporary science fiction authors exploring AI, space colonization, and post-human societies. Winner of multiple Hugo nominations.",
+    "category": "Books & Education",
+    "price": 16.99,
+    "rating": 4.6,
+    "stock": 65,
+    "attributes": "sci-fi, short stories, anthology, Hugo nominated"
+  },
+  {
+    "product_id": "BOOK-004",
+    "title": "Plant-Based Cooking for Families",
+    "description": "Over 150 family-friendly vegan and vegetarian recipes with nutritional information. Organized by meal type with kid-approved options, batch cooking tips, and seasonal ingredient guides.",
+    "category": "Books & Education",
+    "price": 28.99,
+    "rating": 4.4,
+    "stock": 0,
+    "attributes": "vegan, vegetarian, family recipes, nutrition info"
+  },
+  {
+    "product_id": "BOOK-005",
+    "title": "Introduction to Machine Learning with Python",
+    "description": "Practical guide covering supervised and unsupervised learning, neural networks, and model evaluation using scikit-learn and TensorFlow. Real-world datasets and end-to-end project walkthroughs.",
+    "category": "Books & Education",
+    "price": 49.99,
+    "rating": 4.7,
+    "stock": 30,
+    "attributes": "machine learning, Python, scikit-learn, TensorFlow"
+  },
+  {
+    "product_id": "BOOK-006",
+    "title": "Historical Atlas of World Civilizations",
+    "description": "Full-color illustrated atlas tracing the rise and fall of civilizations from Mesopotamia to modern geopolitics. Over 200 maps, timelines, and infographics with expert commentary.",
+    "category": "Books & Education",
+    "price": 39.99,
+    "rating": 4.5,
+    "stock": 18,
+    "attributes": "history, atlas, maps, civilizations"
+  },
+  {
+    "product_id": "BOOK-007",
+    "title": "Children's Illustrated Encyclopedia of Animals",
+    "description": "Colorful reference book for ages 6–12 featuring over 1,000 animal species. Organized by habitat, each entry includes photographs, fun facts, conservation status, and distribution maps.",
+    "category": "Books & Education",
+    "price": 24.99,
+    "rating": 4.6,
+    "stock": 45,
+    "attributes": "children's, animals, encyclopedia, illustrated"
+  },
+  {
+    "product_id": "BOOK-008",
+    "title": "Mindfulness and Meditation Workbook",
+    "description": "A structured 8-week program for developing a daily meditation practice. Combines guided exercises, journaling prompts, and evidence-based mindfulness techniques for stress reduction.",
+    "category": "Books & Education",
+    "price": 18.99,
+    "rating": 4.3,
+    "stock": 55,
+    "attributes": "mindfulness, meditation, workbook, stress reduction"
+  },
+  {
+    "product_id": "BOOK-009",
+    "title": "Advanced Spanish Grammar and Composition",
+    "description": "University-level Spanish textbook covering subjunctive mood, complex sentence structures, and academic writing. Includes exercises, answer key, and audio companion for pronunciation.",
+    "category": "Books & Education",
+    "price": 42.99,
+    "rating": 4.2,
+    "stock": 25,
+    "attributes": "Spanish, grammar, university level, audio companion"
+  },
+  {
+    "product_id": "BOOK-010",
+    "title": "DIY Home Repair Manual",
+    "description": "Comprehensive illustrated guide to common household repairs: plumbing, electrical, drywall, painting, and tile work. Step-by-step photos and tool lists for every project.",
+    "category": "Books & Education",
+    "price": 27.99,
+    "rating": 4.4,
+    "stock": 38,
+    "attributes": "home repair, DIY, illustrated, plumbing, electrical"
+  },
+  {
+    "product_id": "BOOK-011",
+    "title": "Personal Finance for Young Adults",
+    "description": "Plain-language guide to budgeting, saving, investing, and managing student loans. Written specifically for ages 18–30 with worksheets, real-life scenarios, and no financial jargon.",
+    "category": "Books & Education",
+    "price": 15.99,
+    "rating": 4.5,
+    "stock": 60,
+    "attributes": "personal finance, budgeting, investing, young adults"
+  },
+  {
+    "product_id": "BOOK-012",
+    "title": "Astrophotography Field Guide",
+    "description": "From camera settings to post-processing, this field guide covers capturing the Milky Way, star trails, and deep-sky objects. Includes planning charts, gear recommendations, and editing workflows.",
+    "category": "Books & Education",
+    "price": 31.99,
+    "rating": 4.7,
+    "stock": 20,
+    "attributes": "astrophotography, night sky, camera settings, post-processing"
+  }
+]
