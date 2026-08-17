@@ -1,5 +1,5 @@
 """
-conftest.py — sys.path fix so pytest can import project modules.
+conftest.py — sys.path fix so pytest can import project modules. 
 
 Per planner §8 and §9: this is NON-NEGOTIABLE. Plain `pytest` must work
 without `python -m pytest`. This exact gap cost points on past assignments.
