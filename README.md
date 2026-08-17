@@ -2,7 +2,7 @@
 
 An embedding-powered product search engine using **sentence-transformers** (`all-MiniLM-L6-v2`) and **FAISS** for vector similarity. Supports natural-language semantic search, similar product recommendations, and re-ranking with business signals (rating, stock availability).
 
-GITHUB Link - https://github.com/mayurrishii/Trailblazers_semantic_search
+GITHUB Link - https://github.com/KaviniMuthamizhvalavan/Trailblazers_semantic_search_master
 
 ## Table of Contents
 - [Setup](#setup)
