@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trailblazers — Semantic Search & Recommendation Engine</title>
+  <meta name="description" content="Vector-powered natural language product search and recommendation engine using FAISS and MiniLM embeddings." />
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="nav-container">
+      <div class="brand">
+        <div class="brand-icon">
+          <i class="fa-solid fa-couch"></i>
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">Trailblazers</span>
+          <span class="brand-tag">Vector AI Engine</span>
+        </div>
+      </div>
+
+      <div class="nav-status" id="nav-status-badge">
+        <span class="status-dot"></span>
+        <span class="status-text" id="status-text">FAISS Index: Ready</span>
+        <span class="status-dim" id="status-dim">384-dim</span>
+      </div>
+
+      <div class="nav-actions">
+        <a href="/docs" target="_blank" class="btn-ghost" id="api-docs-link">
+          <i class="fa-solid fa-code"></i> API Specs
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero & Search Section -->
+  <section class="hero-section">
+    <div class="hero-container">
+      <div class="hero-card">
+        <div class="hero-eyebrow">
+          <i class="fa-solid fa-sparkles"></i> AI Semantic Search & Recommendations
+        </div>
+        <h1 class="hero-title">
+          Discover Products by <span class="accent-text">Meaning & Intent</span>
+        </h1>
+        <p class="hero-subtitle">&nbsp;</p>
+
+        <!-- Main Search Box -->
+        <div class="search-wrapper">
+          <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            <input 
+              type="text" 
+              id="search-input" 
+              placeholder="Search naturally (e.g., 'cozy winter jacket', 'beverages hot')..." 
+              autocomplete="off"
+            />
+            <button id="search-clear-btn" class="search-clear hidden" title="Clear Search">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+            <button id="search-submit-btn" class="btn-primary">
+              <span>Search</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+
+          <!-- Quick Query Tags -->
+          <div class="quick-tags">
+            <span class="quick-tag-label"><i class="fa-solid fa-lightbulb"></i> Try searching:</span>
+            <button class="tag-btn" data-query="cozy winter jacket">cozy winter jacket</button>
+            <button class="tag-btn" data-query="something to keep beverages hot">beverages hot</button>
+            <button class="tag-btn" data-query="noise cancelling audio for focus">audio for focus</button>
+            <button class="tag-btn" data-query="ergonomic desk setup accessory">ergonomic desk</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content Layout -->
+  <main class="main-container">
+    
+    <!-- Results Info Bar -->
+    <div class="results-header">
+      <div class="results-title-group">
+        <h2 id="section-heading">Catalog Overview</h2>
+        <span class="results-count-badge" id="results-count-badge">0 items</span>
+      </div>
+
+      <div class="results-controls">
+        <button id="reset-catalog-btn" class="btn-secondary btn-sm" title="Show All Products">
+          <i class="fa-solid fa-arrows-rotate"></i> Show All Catalog
+        </button>
+      </div>
+    </div>
+
+    <!-- Product Grid Container -->
+    <div class="product-grid" id="product-grid">
+      <!-- Cards dynamically generated via JavaScript -->
+    </div>
+
+    <!-- Empty / Loading State Containers -->
+    <div id="empty-state" class="empty-state hidden">
+      <div class="empty-icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+      <h3>No matching products found</h3>
+      <p>Try searching for broader terms like "jacket", "headphones", or "desk".</p>
+      <button class="btn-primary" onclick="resetToCatalog()">View Full Catalog</button>
+    </div>
+
+    <div id="loading-state" class="loading-state hidden">
+      <div class="spinner"></div>
+      <p id="loading-message">Embedding query and searching FAISS index...</p>
+    </div>
+
+  </main>
+
+  <!-- Recommendation Modal -->
+  <div id="recommendation-modal" class="modal-overlay hidden">
+    <div class="modal-card">
+      <button id="modal-close-btn" class="modal-close" title="Close Modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <!-- Modal Header: Source Product -->
+      <div class="modal-header">
+        <div class="source-badge"><i class="fa-solid fa-bullseye"></i> Source Product</div>
+        <h2 id="modal-product-title">Product Title</h2>
+        <p id="modal-product-desc" class="modal-desc">Product description goes here.</p>
+
+        <div class="modal-meta-row">
+          <span class="modal-price" id="modal-product-price">$0.00</span>
+          <span class="badge badge-rating" id="modal-product-rating"><i class="fa-solid fa-star"></i> 4.5</span>
+          <span class="badge badge-stock" id="modal-product-stock">In Stock</span>
+          <span class="badge badge-category" id="modal-product-category">Category</span>
+        </div>
+      </div>
+
+      <hr class="modal-divider" />
+
+      <!-- Modal Body: Recommendations -->
+      <div class="modal-body">
+        <div class="recommendation-title-row">
+          <h3>
+            <i class="fa-solid fa-diagram-project"></i> Semantically Similar Products
+          </h3>
+          <span class="rec-subtitle">Vector nearest-neighbors re-ranked by stock & rating</span>
+        </div>
+
+        <div id="modal-rec-loading" class="loading-state">
+          <div class="spinner spinner-sm"></div>
+          <p>Calculating embedding similarity matrix...</p>
+        </div>
+
+        <div id="modal-rec-grid" class="rec-grid">
+          <!-- Similar products inserted here -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <p>Trailblazers Semantic Search Engine &bull; FAISS & MiniLM Embedding Pipeline</p>
+      <div class="footer-links">
+        <a href="/index/status" target="_blank" id="index-health-link"><i class="fa-solid fa-heart-pulse"></i> Index Health</a>
+        <a href="/products" target="_blank" id="raw-catalog-link"><i class="fa-solid fa-database"></i> JSON Endpoint</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Application Logic -->
+  <script src="app.js"></script>
+</body>
+</html>
